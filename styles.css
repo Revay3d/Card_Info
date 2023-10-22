@@ -123,23 +123,23 @@ body::after {
 .contenedor__footer ul {
     color: #b9b9b9;
     margin: 20px auto;
-    align-self: start;
     font-weight: bold;
     font-size: 15px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 
 }
 
 .contenedor__footer li {
-    margin: 0 10px;
+  margin: auto 4px;
     list-style: none;
 }
 
 .header {
     border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
-    height: 100px;
+   
     position: relative;
     bottom: 0;
     z-index: 20;
@@ -148,8 +148,8 @@ body::after {
     text-align: center;
     justify-content: center;
     background-color: var(--primario);
-    padding: 50px 7px;
-    height:200px;
+    padding: 25px;
+ 
     width: 100%;
     margin-bottom: 15%;
 
