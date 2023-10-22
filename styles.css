@@ -42,6 +42,7 @@ body::after {
     box-shadow: 20px 20px 40px rgba(102, 247, 242, 0.247);
     border-radius: 10px;
     margin: 10% auto;
+
     width: 550px;
     display: flex;
     flex-direction: column;
@@ -135,10 +136,9 @@ body::after {
     list-style: none;
 }
 
-.footer {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    width: 100%;
+.header {
+    border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
     height: 100px;
     position: relative;
     bottom: 0;
@@ -151,37 +151,38 @@ body::after {
     padding: 50px 7px;
     height:200px;
     width: 100%;
-   
+    margin-bottom: 15%;
+
     flex-direction: column;
 
 
 }
 
-.footer__texto {
+.header__texto {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     color: #fff;
     font-weight: bold;
 }
 
-.footer__links {
+.header__links {
     display: flex;
     flex-flow: row wrap;
 }
 
-.footer__links li {
+.header__links li {
     transition: .5s;
     border: transparent solid 2px;
     cursor: pointer;
     border-radius: 10px;
-    padding: 7px;
+    padding: 10px;
     background-color: #003e4979;
     list-style: none;
-    font-size: 17px;
+    font-size: 25px;
     margin: auto 7px;
 }
 
-.footer__links li:hover{
+.header__links li:hover{
     transform: scale(0.9);
     border: #fff solid 2px;
 }
@@ -189,7 +190,7 @@ body::after {
 @media screen and (max-width: 600px) {
     .contenedor {
         width: 95%;
-        margin: 17% auto;
+       
         padding: 10px;
 
     }
@@ -215,7 +216,7 @@ body::after {
         padding: 15px;
     }
 
-    .contenedor__footer ul {
+    .contenedor__header ul {
         padding: 0;
         flex-direction: column;
     }
