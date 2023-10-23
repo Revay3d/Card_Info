@@ -5,9 +5,9 @@ Un código de html y css facil para que pongas tu información y enlaces directo
 puedes personalizar este proyecto a tu gusto o necesidades este codigo fue creado por usus educativos no para comercio u otros fines.
 
 + Clona el repositorio
- ```Bash
+```Bash
        git clone https://github.com/Revay3d/card.git
-      ```
+```
  
 
 ## © Licencia MIT
