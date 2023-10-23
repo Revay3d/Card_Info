@@ -2,7 +2,7 @@
 Un código de html y css facil para que pongas tu información y enlaces directos de tus redes sociales. este proyecto seria de practica y puedas entender como funciona html y css de una manera clara y util.
 
 ## Personlalizacion
-puedes personalizar este proyecto a tu gusto o necesidades este codigo fue creado por usus educativos no para comercio u otros fines.
+puedes personalizar este proyecto según tus gustos o necesidades. Este código fue creado para fines educativos, no para comercio u otros fines. Recuerda siempre respetar las licencias y los derechos de autor cuando utilices código de otros.
 
 + Clona el repositorio
 ```Bash
